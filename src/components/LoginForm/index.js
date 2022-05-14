@@ -19,6 +19,7 @@ function LoginForm() {
         remember: true,
       }}
       onFinish={onFinish}
+      style={{ width: '100%' }}
     >
       <Form.Item
         name="username"
@@ -47,7 +48,7 @@ function LoginForm() {
         />
       </Form.Item>
 
-      <Form.Item style={{ margin: '0 20% 0 0' }}>
+      <Form.Item style={{ paddingLeft: '20px' }}>
         <Form.Item name="remember" valuePropName="checked" noStyle>
           <Checkbox>Remember me</Checkbox>
         </Form.Item>
