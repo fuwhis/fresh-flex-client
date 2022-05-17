@@ -1,15 +1,13 @@
 import React from 'react';
 import { Form, Input, Button, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
-
-// const { Link } = Anchor;
+import './index.less';
 
 function LoginForm() {
 
   const onFinish = (values) => {
     console.log('Received values of form: ', values);
   };
-
 
   return (
     <Form
