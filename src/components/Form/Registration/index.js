@@ -1,6 +1,8 @@
 import React from 'react';
 import { Form, Input, Button, Checkbox } from 'antd';
 
+import './index.less';
+
 function Registration() {
   const [form] = Form.useForm();
   const handleFinish = (values) => {
@@ -43,7 +45,8 @@ function Registration() {
       {...formItemLayout}
       form={form}
       onFinish={handleFinish}
-      name="registration"
+      name="registry"
+      className="registry"
     >
       <Form.Item
         name="email"
