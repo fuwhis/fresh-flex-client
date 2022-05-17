@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![GitHub last commit](https://img.shields.io/github/last-commit/fuwhis/firegroup-test)](https://github.com/fuwhis/firegroup-test/commits/master)
+[![GitHub repo size](https://img.shields.io/github/repo-size/fuwhis/firegroup-test)](https://github.com/fuwhis/firegroup-test/archive/master.zip)
+
 ## Available Scripts
 
 In the project directory, you can run:
