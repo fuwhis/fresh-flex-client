@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.less';
 import TabsCard from './components/TabsCard/index.js';
 function App() {
 
