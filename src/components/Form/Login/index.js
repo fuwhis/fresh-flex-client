@@ -17,7 +17,6 @@ function LoginForm() {
         remember: true,
       }}
       onFinish={onFinish}
-      style={{ width: '100%' }}
     >
       <Form.Item
         name="username"
@@ -46,12 +45,13 @@ function LoginForm() {
         />
       </Form.Item>
 
-      <Form.Item style={{ paddingLeft: '20px' }}>
-        <Form.Item name="remember" valuePropName="checked" noStyle>
+      <Form.Item>
+        <Form.Item
+          name="remember"
+          valuePropName="checked"
+        >
           <Checkbox>Remember me</Checkbox>
         </Form.Item>
-
-
         <a className="login-form-forgot" href="/abc">
           Forgot password
         </a>
@@ -61,7 +61,8 @@ function LoginForm() {
         <Button type="primary" htmlType="submit" className="login-form-button">
           Log in
         </Button>
-        Or <a href="/register">register now!</a>
+        Or
+        <a href="/register">register now!</a>
       </Form.Item>
     </Form>
   );
