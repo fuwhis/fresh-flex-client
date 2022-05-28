@@ -1,8 +1,30 @@
 @import "~antd/dist/antd.less";
 
-.login-form {
-  width: auto;
+.card-form {
+  // display: flex;
+  border: 1px solid;
+  border-radius: 5%;
 }
 
+// .h1-text {
+//   border-bottom: 1px solid #66666670;
+//   padding: 0 2% 2% 2%;
+//   border-spacing: 15px;
+// }
+
 .login-form-forgot {
+  padding: 0 10%;
+}
+
+@media (max-width: 480px) {
+  .form.login-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  // padding: 10%;
+  .login-form {
+    width: 100%;
+  }
 }
