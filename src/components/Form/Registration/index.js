@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, Button, Checkbox, Card } from 'antd';
+import { Form, Input, Button, Checkbox, Card, Divider } from 'antd';
 import { MailOutlined, LockOutlined, UnlockOutlined } from '@ant-design/icons';
 import './index.less';
 
@@ -42,7 +42,7 @@ function Registration() {
   };
   return (
     <Card className='card-form-signup' style={{ width: 480 }}>
-      <h1>Sign Up</h1>
+      <Divider><h1>Create Account</h1></Divider>
       <Form
         {...formItemLayout}
         form={form}

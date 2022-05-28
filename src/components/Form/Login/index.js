@@ -64,8 +64,8 @@ function LoginForm() {
           <Button type="primary" htmlType="submit" className="login-form-button">
             Log in
           </Button>
-          <br /> Or  <br />
-          <a href="/register">register now!</a>
+          &nbsp; Or &nbsp;
+          <a href="/register">Register now!</a>
         </Form.Item>
       </Form>
     </Card>
